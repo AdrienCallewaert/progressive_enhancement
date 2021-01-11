@@ -1,0 +1,25 @@
+@font-face 
+{
+    font-family: "Open Sans";
+    src: url("fonts/OpenSans-ExtraBoldItalic.ttf") format("ttf"),
+         url("fonts/OpenSans-Italic.ttf") format("ttf"),
+         url("fonts/OpenSans-Light.ttf") format("ttf"),
+         url("fonts/OpenSans-LightItalic.ttf") format("tff"),
+         url("fonts/OpenSans-Regular.ttf") format("ttf"),
+         url("fonts/OpenSans-SemiBold.ttf") format("ttf"),
+         url("fonts/OpenSans-SemiBoldItalic.ttf") format("ttf"),
+         url("fonts/OpenSans-Bold.ttf") format("tff"),
+         url("fonts/OpenSans-BoldItalic.ttf") format("tff"),
+         url("fonts/OpenSans-ExtraBold.ttf") format("tff");
+}
+
+p
+{
+    color: #A04000  ;
+    font-size: 1.2em;
+    text-align: justify;
+    font-family: 'YuseiMagic', 'Times New Roman', Times, serif;
+	letter-spacing: 3px;
+}
+
+a:hover { color: black; text-decoration: none; } a:visited { color:#6E2C00; }
