@@ -13,8 +13,7 @@
          url("fonts/OpenSans-ExtraBold.ttf") format("tff");
 }
 
-p
-{
+p {
     color: #A04000  ;
     font-size: 1.2em;
     text-align: justify;
@@ -22,4 +21,23 @@ p
 	letter-spacing: 3px;
 }
 
+body {
+	max-width: 90%;
+	margin: auto;
+	
+
+
 a:hover { color: black; text-decoration: none; } a:visited { color:#6E2C00; }
+}
+
+
+
+
+blockquote {
+	width: 50%;
+	margin: auto;
+	font-size: 160%;
+	background-color: lightgrey;
+	border-left: 3px solid firebrick;
+	padding: 80px 30px 80px 30px;
+}
