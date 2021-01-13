@@ -43,8 +43,44 @@ body {
 blockquote {
 	width: 50%;
 	margin: auto;
-	font-size: 1.6em;
+    font-size: 1.6em;
+    font-style: italic;
 	background-color: lightgrey;
 	border-left: 3px solid firebrick;
 	padding: 80px 30px 80px 30px;
 }
+
+
+
+
+
+.villagers
+{
+    border-left: 3px solid #ec3324;
+}
+
+.farmer
+{
+    border-left: 3px solid #577889;
+}
+
+
+
+
+
+
+.Good
+{
+    text-transform: capitalize;
+    color: #5a9b75;
+}
+
+.Bad
+{
+    text-transform: capitalize;
+    color: #ec3324;
+}
+
+
+
+
