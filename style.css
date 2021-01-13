@@ -14,29 +14,36 @@
 }
 
 p {
-    color: #A04000  ;
-    font-size: 1.2em;
-    text-align: justify;
-    font-family: 'YuseiMagic', 'Times New Roman', Times, serif;
-	letter-spacing: 3px;
+    font-family: "Trebuchet MS";
+    font-size: 1em;
+    letter-spacing: 3px;
+    color: gray;
 }
+
+
+a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+
+a:visited {
+    color: chocolate;
+}
+
 
 body {
 	max-width: 90%;
-	margin: auto;
-	
-
-
-a:hover { color: black; text-decoration: none; } a:visited { color:#6E2C00; }
+    margin: auto;
+    background: linear-gradient(#FFFFFF, #D3D3D3);
+    background:url(japan-732704_1280.jpg)no-repeat bottom right;
+    background-size: cover;
 }
-
-
-
 
 blockquote {
 	width: 50%;
 	margin: auto;
-	font-size: 160%;
+	font-size: 1.6em;
 	background-color: lightgrey;
 	border-left: 3px solid firebrick;
 	padding: 80px 30px 80px 30px;
